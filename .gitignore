@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts
+dist/
+build/
+.out/
+.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Uploads & runtime media
+uploads/
+*.log
+
+# Operating system / editor files
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
